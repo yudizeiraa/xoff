@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="XOFF: achadinhos e ofertas selecionadas na Shopee." />
+  <title>XOFF | Achados que valem a pena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#inicio" aria-label="XOFF - Início">X<span>O</span>FF</a>
+      <button class="menu-button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#ofertas">Ofertas</a><a href="#achadinhos">Achadinhos</a>
+      </nav>
+      <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar produtos..." /></label>
+      <button class="favorites-button" id="favoritesButton" aria-label="Ver favoritos">♡ <span id="favoriteCount">0</span></button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero"><div class="container hero-content">
+      <p class="eyebrow">SELEÇÃO XOFF</p><h1>Achadinhos que<br><em>valem a pena.</em></h1>
+      <p>Ofertas e produtos que garimpamos para você. Clique, confira e compre direto na Shopee.</p>
+      <a class="button button-primary" href="#ofertas">Ver ofertas <span>→</span></a>
+      <div class="hero-stats"><div><strong>+250</strong><span>produtos selecionados</span></div><div><strong>Todos os dias</strong><span>novas ofertas</span></div></div>
+    </div></section>
+
+    <section class="categories container" aria-label="Categorias">
+      <div class="section-heading"><div><p class="eyebrow">NAVEGUE POR</p><h2>Categorias</h2></div><button id="clearFilter" class="text-button" hidden>Limpar filtro</button></div>
+      <div class="category-list" id="categoryList"></div>
+    </section>
+
+    <section class="products-section container" id="ofertas">
+      <div class="section-heading"><div><p class="eyebrow">PREÇOS ESPECIAIS</p><h2>Ofertas em destaque <span>🔥</span></h2></div><p id="resultsInfo" class="results-info"></p></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p id="emptyState" class="empty-state" hidden>Nenhum produto encontrado. Tente outra busca.</p>
+    </section>
+
+    <section class="value-section" id="achadinhos"><div class="container value-content">
+      <p class="eyebrow">POR QUE XOFF?</p><h2>Menos procura.<br>Mais <em>achados.</em></h2>
+      <div class="benefits"><article><span>✦</span><h3>Seleção real</h3><p>Produtos escolhidos para facilitar sua busca.</p></article><article><span>↗</span><h3>Compra segura</h3><p>Você finaliza tudo direto no site da Shopee.</p></article><article><span>◌</span><h3>Sempre atualizado</h3><p>Ofertas novas para você acompanhar.</p></article></div>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-content"><a class="logo" href="#inicio">X<span>O</span>FF</a><p>© 2026 XOFF. Achadinhos para facilitar seu dia.</p><p class="affiliate-notice">Aviso: a XOFF participa de programas de afiliados. Ao clicar em um link, poderemos receber uma comissão sem custo extra para você.</p></div></footer>
+
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="close-modal" aria-label="Fechar">×</button><div id="modalContent"></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
