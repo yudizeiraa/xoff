@@ -106,7 +106,6 @@ const products = [
   }
   {
     id: 9,
-    name: 'Kit Presilhas de Cabelo Estrela Coloridas Cores Sortidas 10 20 50 100 Unidades',
     category: 'Acessórios',
     price: 10.00,
     oldPrice: 23.90,
@@ -114,7 +113,7 @@ const products = [
     reviews: 80,
     badge: '38% OFF',
     image: 'https://down-aka-br.img.susercontent.com/br-11134207-820mh-mpxpl22c3y825b.webp',
-    description: 'Kit Presilhas de Cabelo Estrela Coloridas Cores Sortidas 10 20 50 100 Unidades.',
+    description: 'Moletom Estilo Gringo Basic Ou Flores, Qualidade E Envio Imediato Full.',
     affiliateLink: 'https://s.shopee.com.br/7pt4JQMbus'
   },
   {
