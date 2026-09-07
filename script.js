@@ -113,7 +113,7 @@ const products = [
     rating: 4.5,
     reviews: 80,
     badge: '38% OFF',
-    image: 'https://down-aka-br.img.susercontent.com/br-11134207-820mh-mpxpl22c3y825b.webp',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-823p1-mot19976445p67@resize_w450_nl.webp',
     description: 'Moletom Estilo Gringo Basic Ou Flores, Qualidade E Envio Imediato Full.',
     affiliateLink: 'https://s.shopee.com.br/7pt4JQMbus'
   },
