@@ -1142,7 +1142,10 @@ footer {
         font-size: 11px;
     }
 }
-
+.mascote {
+    width: 30px;
+    height: auto;
+}
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
