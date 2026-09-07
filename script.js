@@ -106,6 +106,7 @@ const products = [
   }
   {
     id: 9,
+    name: 'Moletom Estilo Gringo Basic Ou Flores',
     category: 'Acessórios',
     price: 10.00,
     oldPrice: 23.90,
