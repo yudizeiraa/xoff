@@ -146,7 +146,7 @@ const products = [
   {
     id: 12,
     name: 'Boné Verde Militar Qualidade Premium',
-    category: 'Casa',
+    category: 'Moda',
     price: 59.90,
     oldPrice: 59.99,
     rating: 4.8,
