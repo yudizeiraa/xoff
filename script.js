@@ -103,7 +103,7 @@ const products = [
     image: 'https://down-zl-br.img.susercontent.com/sg-11134201-7rfgy-m96aexqaol2f4e.webp',
     description: 'Fone De Ouvido Fone Bluetooth 5.0 Fone Sem Fio Fone Gamer Fone TWS Fone Esporte Fone com Display.',
     affiliateLink: 'https://s.shopee.com.br/4qFSX2qnib'
-  }
+  },
   {
     id: 9,
     name: 'Moletom Estilo Gringo Basic Ou Flores',
