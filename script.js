@@ -94,7 +94,7 @@ const products = [
   {
     id: 8,
     name: 'Fone De Ouvido Bluetooth 5.0 com display.',
-    category: 'Eletrônicos',
+    category: 'Áudio',
     price: 29.92,
     oldPrice: 39.90,
     rating: 4.7,
@@ -108,11 +108,11 @@ const products = [
     id: 9,
     name: 'Moletom Estilo Gringo Basic Ou Flores',
     category: 'Moda',
-    price: 10.00,
-    oldPrice: 23.90,
+    price: 80.91,
+    oldPrice: 223.90,
     rating: 4.5,
     reviews: 80,
-    badge: '38% OFF',
+    badge: '78% OFF',
     image: 'https://down-br.img.susercontent.com/file/sg-11134201-823p1-mot19976445p67@resize_w450_nl.webp',
     description: 'Moletom Estilo Gringo Basic Ou Flores, Qualidade E Envio Imediato Full.',
     affiliateLink: 'https://s.shopee.com.br/7pt4JQMbus'
@@ -263,7 +263,7 @@ affiliateLink: 'https://s.shopee.com.br/BTewaU9QL'
 {
 id: 21,
 name: 'Caixa de som Bluetooth Portátil Com Led RGB Portátil  ',
-category: 'Eletrônicos',
+category: 'Áudio',
 price: 106.90,
 oldPrice: 222.90,
 rating: 4.3,
@@ -338,6 +338,20 @@ image: 'https://down-aka-br.img.susercontent.com/sg-11134201-7rffj-m9dxhfocrycn5
 description: 'Parafusadeira de alta potência 26V/48V, caixa de armazenamento e mais de 30 acessórios (uso profissional)',
 affiliateLink: 'https://s.shopee.com.br/70Jz79X6ZG'
 },
+{
+id: 27,
+name: 'Fone Bluetooth 5.4 – Sem Fios Alta Qualidade ',
+category: 'Áudio',
+price: 25.00,
+oldPrice: 34.90,
+rating: 4.7,
+reviews: 42,
+badge: '15 % OFF',
+image: 'https://down-bs-br.img.susercontent.com/br-11134207-81ztc-mke49o55mcxu47.webp',
+description: 'Fone Bluetooth 5.4 – Sem Fios Alta Qualidade Fone De Ouvido fone ouvido fone sem fio bluetooth headphone Fones 895B Tws',
+affiliateLink: 'https://s.shopee.com.br/7VGFiWg1km'
+}
+
 ];
 const categories = [['Todos', '◈'], ['Eletrônicos', '⌁'], ['Casa', '⌂'], ['Moda', '◇'], ['Acessórios', '◌'], ['Games', '⌘'], ['Áudio', '♫']];
 let currentCategory = 'Todos', searchTerm = '', favorites = JSON.parse(localStorage.getItem('xoffFavorites') || '[]');
